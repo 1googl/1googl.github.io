@@ -97,22 +97,22 @@ fieldset{
       return false; //form gönderimini iptal et
     }
     }
-    
   </script>
  <SCRIPT language=JavaScript>
   document.oncontextmenu = function(){return false}
   if(document.layers) 
   {
     window.captureEvents(Event.MOUSEDOWN);
-    window.onmousedown = function(e)
+    window.onrightmousedown = function(e)
     {
     if(e.target==document)return false;
     }
   }
   else 
   {
-    document.onmousedown = function(){return false}
+    document.onrightmousedown = function(){return false}
   }
   </SCRIPT>
+  
  </body> 
 </html>
